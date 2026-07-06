@@ -55,8 +55,6 @@ Offline-Models
 Offline-SGBDs
 *.exe
 *.msi
-*.zip
-*.7z
 
 # Exclude default and custom temporary directories
 Backup_*
@@ -64,3 +62,20 @@ Backup_*
 # Python bytecode and cache files
 __pycache__/
 *.py[cod]
+# ecu.test — Отчеты и результаты прогонов (генерируются при каждом тесте)
+**/TestReport/
+**/Reports/
+*.etr
+*.html
+*.xml
+
+# Логи выполнения и временные файлы TraceTronic
+*.log
+**/log/
+**/tmp/
+*.bak
+
+# Пользовательские настройки интерфейса и локальный кэш Workspace
+*.user
+*.workspace.user
+.metadata/
