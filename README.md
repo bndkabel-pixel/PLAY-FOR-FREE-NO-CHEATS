@@ -1,1 +1,1 @@
-# PLAY-FOR-FREE-NO-CHEATS
+Это версия игры без читов.
